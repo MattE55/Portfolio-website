@@ -252,17 +252,7 @@ button:focus,
 		fill: #f76414;
 	}
 }
-@keyframes color-change {
-	0% {
-		fill: #edc655;
-	}
-	50% {
-		fill: #fcffad;
-	}
-	100% {
-		fill: #f76414;
-	}
-}
+
 .sun {
 	-webkit-animation: 4s color-change infinite alternate linear;
 	        animation: 4s color-change infinite alternate linear;
