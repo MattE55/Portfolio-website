@@ -119,7 +119,7 @@ button:hover, button:focus {
 	align-self: center;
 }
 
-.page-header__item: last-child {
+.page-header__item:last-child {
 	flex-grow: 1;
 	text-align: right;
 }
@@ -143,7 +143,7 @@ button:hover, button:focus {
 	background-color: lightgray;
 	}
 
-.grid__item: last-child {
+.grid__item:last-child {
 	grid-column-start: 3;
 	grid-column-end: 3;
 	grid-row-start: 1;
@@ -164,7 +164,7 @@ button:hover, button:focus {
 	.grid {
 		grid-gap: 10px;
 	}
-	.grid__item: last-child {
+	.grid__item:last-child {
 		grid-column: auto / auto;
 		grid-row: auto / auto;
 	}
